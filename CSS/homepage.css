@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
+
 body{
+    background-color: black;
+}
+/* body{
     background: linear-gradient(45deg, #12034d, #7c7cff, #49a9d6, #130046);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-size: 300% 300%;
     animation: color 12s ease-in-out infinite;
-}
+} */
 
-@keyframes color{
+/* @keyframes color{
     0%{
         background-position: 0 50%;
     }
@@ -22,7 +25,7 @@ body{
         background-position: 0 50%;
     }
 
-}
+} */
 
 /* navigation */
 .navigation{
@@ -47,7 +50,7 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: azure;
 }
 
 /* container */
@@ -105,7 +108,13 @@ a{
 }
 
 .words > h1{
-    color: antiquewhite;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 42px rgb(12, 51, 38),
+        0 0 82px rgb(17, 66, 50),
+        0 0 92px #0fa,
+        0 0 102px #0fa;
     font-size: 4.3em;
     font-family: "Tilt Neon", sans-serif;
     padding: 0;
@@ -118,7 +127,7 @@ a{
 .words > p{
     font-size: 110%;
     font-family: "Lexend", sans-serif;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     padding: 0;
     margin: 0;
 }

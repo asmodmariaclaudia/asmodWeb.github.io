@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 
 body{
-    background: linear-gradient(45deg, #12034d, #7c7cff, #49a9d6, #130046);
+    background: linear-gradient(45deg, #090225, #0d0d53, #041f2c, #0a0222);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-size: 300% 300%;
     animation: color 12s ease-in-out infinite;
 }
@@ -21,14 +21,13 @@ body{
     100%{
         background-position: 0 50%;
     }
-
 }
 
 /* navigation */
 .navigation{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 1%;
 }
 
 .navigation > ul{
@@ -38,7 +37,7 @@ body{
     list-style: none;
 }
 
-li{
+.nav > li{
     font-family: "Lexend", sans-serif;
     font-size: 120%;
     margin: 1%;
@@ -47,10 +46,42 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
-/* con1 */
+/* divs */
 .learned{
-    border: #959fa3;
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 1.5%;
+    max-width: 40%;
+    background-color: rgba(250, 235, 215, 0.219);
+    /* border: solid wheat; */
+    box-shadow: 4px 4px #00A4BD, 8px 8px #FF7A59, 12px 12px #334758;
 }
+
+.did-notLearned{
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 1.5%;
+    max-width: 40%;
+    /* border: solid wheat; */
+    background-color: rgba(250, 235, 215, 0.219);
+    box-shadow: 4px 4px #00A4BD, 8px 8px #FF7A59, 12px 12px #334758;
+}
+
+h1{
+    font-size: 2em;
+    color: aliceblue;
+}
+
+ol{
+    color: aliceblue;
+}
+
+li{
+    padding: 8px;
+}
+
