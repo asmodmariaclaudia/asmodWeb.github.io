@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+    background: linear-gradient(45deg, #12034d, #7c7cff, #49a9d6, #130046);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+
+}
+
+/* navigation */
+.navigation{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 1%;
+}
+
+.navigation > ul{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    font-family: "Lexend", sans-serif;
+    font-size: 120%;
+    margin: 1%;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* container */
+.container{
+    height: 30em;
+    margin: 0;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: -10%;
+    background-image: url("../imahe/bg1.jpg");
+    image-rendering:optimizeSpeed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: changes 20s infinite ease-in-out;
+}
+
+@keyframes changes{
+    0%{
+        background-image: url("../imahe/bg2.jpg");
+    }
+
+    20%{
+        background-image: url("../imahe/bg3.jpg");
+    }
+
+    40%{
+        background-image: url("../imahe/bg3.jpg");
+    }
+
+    60%{
+        background-image: url("../imahe/bg4.jpg");
+    }
+
+    80%{
+        background-image: url("../imahe/bg5.jpg");
+    }
+
+    100%{
+        background-image: url("../imahe/bg1.jpg");
+    }
+}
+
+.words{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.words > h4{
+    font-size: 130%;
+    font-family: "Lexend", sans-serif;
+    color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+.words > h1{
+    color: antiquewhite;
+    font-size: 4.3em;
+    font-family: "Tilt Neon", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.asmod{
+    color: rgb(47, 255, 47);
+}
+.words > p{
+    font-size: 110%;
+    font-family: "Lexend", sans-serif;
+    color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+

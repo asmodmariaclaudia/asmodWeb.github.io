@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+    background: linear-gradient(45deg, #12034d, #7c7cff, #49a9d6, #130046);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+
+}
+
+/* navigation */
+.navigation{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation > ul{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    font-family: "Lexend", sans-serif;
+    font-size: 120%;
+    margin: 1%;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* con1 */
+.learned{
+    border: #959fa3;
+}
