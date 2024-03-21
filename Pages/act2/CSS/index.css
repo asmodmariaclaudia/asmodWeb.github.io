@@ -51,7 +51,7 @@ body{
 
 /* container1 */
 .sectionOne{
-    background-color:#FF3939;
+    background-color:#c74a4a;
     box-sizing: border-box;
     border: none;
     margin-left: 2%;
@@ -152,3 +152,8 @@ li{
     font-family: "Poppins", sans-serif;
     background-color: #141B1E;
 }
+
+button:hover {
+    background: #472123;
+}
+  
