@@ -154,6 +154,19 @@ li{
 }
 
 button:hover {
-    background: #472123;
+    animation: pulse 1s infinite;
+    transition: .3s;
 }
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
   
