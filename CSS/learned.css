@@ -49,6 +49,20 @@ a{
     color: rgb(255, 255, 255);
 }
 
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover{
+    color: #061b46;
+    text-shadow: 0 0 7px #fff,
+                0 0 42px rgb(12, 51, 38),
+                0 0 82px rgb(17, 66, 50),
+                0 0 92px #0fa,
+                0 0 102px #0fa;
+}
+
 /* divs */
 .learned{
     font-family: "Shippori Antique B1", sans-serif;

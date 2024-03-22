@@ -58,6 +58,15 @@ a{
     color: azure;
 }
 
+a:hover{
+    color: #01153c;
+    text-shadow: 0 0 7px #fff,
+                0 0 42px rgb(12, 51, 38),
+                0 0 82px rgb(17, 66, 50),
+                0 0 92px #0fa,
+                0 0 102px #0fa;
+}
+
 /* container */
 .container{
     height: 30em;
