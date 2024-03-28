@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+body{
+    background: linear-gradient(45deg, #9c433c, #b22424, #450f0f, #000000);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+/* navigation */
+.navigation{
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 1%;
+}
+
+.navigation > ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav > li{
+    font-family: "Lexend", sans-serif;
+    font-size: 120%;
+    margin: 1%;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: #461306;
+    text-shadow: 0 0 7px #fff,
+                0 0 42px rgb(250, 56, 30),
+                0 0 82px rgb(102, 7, 0),
+                0 0 92px rgb(255, 73, 12),
+                0 0 102px rgb(255, 109, 19);
+}
+
+.omni{
+    font-family: "Gruppo", sans-serif;
+    font-weight: 5000;
+    color:rgb(230, 93, 93);
+    text-align: center;
+    font-size: 3.5em;
+    padding: 2%;
+    letter-spacing: 4px;
+    text-shadow: -5px 0px rgb(62, 56, 56);
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+
+}
+
+.page{
+    background-color:#210806;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.image1 > img{
+    height: 400px;
+    float: right;
+    margin-left: 6%;
+    margin-top: 9%;
+}
+
+/* container1 */
+.sectionOne{
+    background-color:#c74a4a;
+    box-sizing: border-box;
+    border: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* max-width: 1000px;
+    margin: 0 auto; */
+    /* display: flex; */
+    text-align: start;
+    padding: 5%;
+}
+
+.UpLeft > h1{
+    font-size: 59px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.UpLeft > p{
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.UpLeft > button{
+    border: none;
+    font-size: 18px;
+    padding: 1%;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    background-color: #141B1E;
+}
+
+/* p{
+    padding: 1%;
+    margin: 2%;
+} */
+
+/* container2 */
+.sectionTwo{
+    border: none;
+    background-color:#FF3939;
+    box-sizing: border-box;
+    border: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* max-width: 1000px;
+    margin: 0 auto;
+    display: flex; */
+    text-align: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.down > h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 3em;
+}
+
+ul{
+    box-sizing: border-box;
+}
+
+.ul, .ul2, .ul3{
+    background-color: rgba(255, 244, 231, 0.666);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    text-justify: inter-word;
+    display: inline-block;
+    max-width: 30%;
+    padding: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+li{
+    font-size: 110%;
+    font-weight: 500;
+    list-style: none;
+    padding: 1%;
+    margin: 2%;
+}
+
+.img1{
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+.btn1{
+    border: none;
+    font-size: 15px;
+    padding: 2%;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    background-color: #141B1E;
+}
+
+button:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+  
