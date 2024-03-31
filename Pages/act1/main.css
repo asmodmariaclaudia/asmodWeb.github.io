@@ -93,4 +93,24 @@ button:hover{
     cursor:pointer;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        background-size: auto; /* Adjust background size for mobile */
+    }
+
+    .container{
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        margin-left: 0; /* Reset margin for smaller screens */
+        text-align: center;
+        border: none;
+        max-width: 1000px;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        padding: 2%;
+        background-color: rgba(241, 241, 207, 0.4);
+        border-radius: 5%;
+    }
+}
+
 
