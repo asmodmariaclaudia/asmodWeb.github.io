@@ -315,4 +315,13 @@ a:hover {
     .gets ol{
         max-width: 50%;
     }
+
+    .nav2{
+        margin: 0.5%;
+    }
+
+    .nav2 ul{
+        font-size: 90%;
+    }
 }
+
